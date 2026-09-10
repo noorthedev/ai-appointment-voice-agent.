@@ -33,3 +33,11 @@ https://elevenlabs.io/app/talk-to?agent_id=agent_3401m20ssp3mecd8gfx7p5g4t70z&br
 
 
 **AI-powered appointment assistant built with ElevenLabs Voice Agent, n8n automation, webhook integration, and Google Sheets for automated appointment booking and management.**
+
+
+## 🔄 n8n Workflow
+
+The `workflow.json` file contains the exported n8n workflow used to receive appointment details through a webhook and store them in Google Sheets.
+
+### Workflow
+Webhook → Google Sheets → Respond to Webhook
