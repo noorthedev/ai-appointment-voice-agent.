@@ -13,26 +13,26 @@
         0,
         0
       ],
-      "id": "9e1097d6-9552-4496-96af-e2032eacc5c9",
+      "id": "",
       "name": "Webhook",
-      "webhookId": "6457d4ea-9256-4000-a76a-b1eaca7ec794"
+      "webhookId": ""
     },
     {
       "parameters": {
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "1Do1JtUgsJQ6UDJB3ifc3isLiejrdHY8yaMPiPB4O7w8",
+          "value": "YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
           "cachedResultName": "AI Appointment Assistant Data Based",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Do1JtUgsJQ6UDJB3ifc3isLiejrdHY8yaMPiPB4O7w8/edit?usp=drivesdk"
+          "cachedResultUrl": "YOUR_GOOGLE_SHEET_URL"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "Sheet1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Do1JtUgsJQ6UDJB3ifc3isLiejrdHY8yaMPiPB4O7w8/edit#gid=0"
+          "cachedResultUrl": "YOUR_GOOGLE_SHEET_URL"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -102,11 +102,11 @@
         224,
         0
       ],
-      "id": "bb73d625-9b04-4921-902c-26e26f6525e9",
+      "id": "",
       "name": "Append row in sheet",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "FcaNifB6GN8YhQQk",
+          "id": "YOUR_CREDENTIAL_ID",
           "name": "Google Sheets account"
         }
       }
@@ -123,7 +123,7 @@
         416,
         0
       ],
-      "id": "ccaebdd1-60e1-44f9-b982-6f0c270abe18",
+      "id": "",
       "name": "Respond to Webhook"
     }
   ],
@@ -157,12 +157,13 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "c82377e7-896c-4412-9385-8c48fe32d6e6",
+  "versionId": "YOUR_CREDENTIAL_ID",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "d063b164d915bbf7095c07eb75f5a68cc8a9a645882f97edd3912beeb2534126"
+    "instanceId": ""
   },
   "nodeGroups": [],
-  "id": "7kFalRaayhTAfxCm",
+  "id": "",
   "tags": []
 }
+
